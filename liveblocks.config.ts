@@ -1,47 +1,8 @@
 import { createClient, LiveMap, LiveObject } from "@liveblocks/client";
 import { createRoomContext } from "@liveblocks/react";
-import Router from "next/router";
-//import { User } from "./types";
 
-// The location of the liveblocks custom API endpoints
-export const ENDPOINT_BASE_URL = "/api/liveblocks";
-
-// Creating client with a custom callback that calls our API
-// In this API we'll assign each user custom data, such as names, avatars
-// If any client side data is needed to get user info from your system,
-// (e.g. auth token, user id) send it in the body alongside `room`.
-// Check inside `/pages/${ENDPOINT_BASE_URL}/auth` for the endpoint
 const client = createClient({
-  authEndpoint: async (roomId: string) => {
-    const payload = {
-      roomId,
-    };
-
-    // Call auth API route to get Liveblocks access token
-    const response = await fetch(ENDPOINT_BASE_URL + "/auth", {
-      method: "POST",
-      headers: {
-        Authentication: "token",
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(payload),
-    });
-    const result = await response.json();
-
-    // If auth not successful, add stringified error object to current URL params
-    if (!response.ok) {
-      Router.push({
-        query: {
-          ...Router.query,
-          error: encodeURIComponent(JSON.stringify(result.error)),
-        },
-      });
-      return;
-    }
-
-    // Return token
-    return result;
-  },
+  publicApiKey: process.env.NEXT_PUBLIC_LIVEBLOCKS_PUBLIC_KEY,
 });
 
 // Presence represents the properties that will exist on every User in the Room
@@ -49,6 +10,10 @@ const client = createClient({
 // `user.presence` property. Must be JSON-serializable.
 export type Presence = {
   cursor: { x: number; y: number } | null;
+  info: {
+    name: string;
+    color: string;
+  };
 };
 
 export type Note = LiveObject<{
@@ -69,26 +34,18 @@ type Storage = {
   notes: Notes;
 };
 
-//export type UserInfo = Pick<User, "name" | "avatar" | "color">;
-
 // Optionally, UserMeta represents static/readonly metadata on each User, as
 // provided by your own custom auth backend (if used). Useful for data that
 // will not change during a session, like a User's name or avatar.
-export type UserMeta = {
-  info: UserInfo;
-};
+export type UserMeta = {};
 
-// Optionally, the type of custom events broadcasted and listened for in this
+// Optionally, the type of custom events broadcast and listened to in this
 // room. Must be JSON-serializable.
-type RoomEvent = {
-  type: "SHARE_DIALOG_UPDATE";
-};
+type RoomEvent = {};
 
 export const {
   suspense: {
     RoomProvider,
-    useBroadcastEvent,
-    useEventListener,
     useHistory,
     useCanUndo,
     useCanRedo,

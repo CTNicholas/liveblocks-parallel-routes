@@ -11,9 +11,7 @@ import {
   useState,
 } from "react";
 import { PlusIcon, RedoIcon, UndoIcon } from "../../icons";
-import { useSession } from "next-auth/react";
 import {
-  UserMeta,
   useCanRedo,
   useCanUndo,
   useHistory,
@@ -29,10 +27,6 @@ import { Cursors } from "../Cursors";
 import { WhiteboardNote } from "./WhiteboardNote";
 import styles from "./Whiteboard.module.css";
 
-interface Props extends ComponentProps<"div"> {
-  currentUser: UserMeta["info"] | null;
-}
-
 /**
  * This file shows how to create a multiplayer canvas with draggable notes.
  * The notes allow you to add text, display who's currently editing them, and can be removed.
@@ -40,8 +34,6 @@ interface Props extends ComponentProps<"div"> {
  */
 
 export function Whiteboard() {
-  const { data: session } = useSession();
-
   const loading = (
     <div className={styles.loading}>
       <Spinner size={24} />
@@ -50,18 +42,20 @@ export function Whiteboard() {
 
   return (
     <ClientSideSuspense fallback={loading}>
-      {() => <Canvas currentUser={session?.user.info ?? null} />}
+      {() => <Canvas />}
     </ClientSideSuspense>
   );
 }
 
 // The main Liveblocks code, handling all events and note modifications
-function Canvas({ currentUser, className, style, ...props }: Props) {
+function Canvas({ className, style, ...props }: ComponentProps<"div">) {
   // An array of every note id
   const noteIds: string[] = useStorage(
     (root) => Array.from(root.notes.keys()),
     shallow
   );
+
+  const currentUser = useSelf((me) => me.presence.info);
 
   const history = useHistory();
   const canUndo = useCanUndo();
@@ -155,12 +149,12 @@ function Canvas({ currentUser, className, style, ...props }: Props) {
     e.preventDefault();
 
     if (isDragging && dragInfo.current) {
-      const { x, y } = dragInfo.current.offset;
+      const { x, y } = dragInfo.current!.offset;
       const coords = {
         x: e.clientX - rectRef.current.x - x,
         y: e.clientY - rectRef.current.y - y,
       };
-      handleNoteUpdate(dragInfo.current.noteId, coords);
+      handleNoteUpdate(dragInfo.current!.noteId, coords);
     }
   }
 

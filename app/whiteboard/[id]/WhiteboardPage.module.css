@@ -1,0 +1,28 @@
+.whiteboardPage {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform ease-out 0.15s;
+  background: var(--color-surface);
+}
+
+.whiteboardPageShrunk {
+  position: fixed;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  transform: scale(0.4);
+  right: var(--space-8);
+  bottom: var(--space-8);
+  border: 2px solid rgb(var(--color-gray-300));
+}
+
+.whiteboardPageBackButton {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}

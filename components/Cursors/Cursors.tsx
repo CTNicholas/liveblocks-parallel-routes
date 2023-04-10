@@ -33,14 +33,15 @@ export function Cursors({ element }: Props) {
 
     // If element, add live cursor listeners
     const updateCursor = (event: PointerEvent) => {
+      console.log("UPDAE");
       if (!element?.current) {
         return;
       }
 
-      const { top, left } = element.current.getBoundingClientRect();
+      const { top, left } = element.current!.getBoundingClientRect();
 
-      const x = event.clientX - left + element.current.scrollLeft;
-      const y = event.clientY - top + element.current.scrollTop;
+      const x = event.clientX - left + element.current!.scrollLeft;
+      const y = event.clientY - top + element.current!.scrollTop;
 
       updateMyPresence({
         cursor: {
@@ -56,8 +57,8 @@ export function Cursors({ element }: Props) {
       });
     };
 
-    element.current.addEventListener("pointermove", updateCursor);
-    element.current.addEventListener("pointerleave", removeCursor);
+    element.current!.addEventListener("pointermove", updateCursor);
+    element.current!.addEventListener("pointerleave", removeCursor);
 
     // Clean up event listeners
     const oldRef = element.current;
@@ -76,18 +77,18 @@ export function Cursors({ element }: Props) {
         /**
          * Iterate over other users and display a cursor based on their presence
          */
-        others.map(({ connectionId, presence, info }) => {
+        others.map(({ connectionId, presence }) => {
           if (presence == null || presence.cursor == null) {
             return null;
           }
 
           return (
             <Cursor
-              color={info?.color}
+              color={presence.info?.color}
               key={`cursor-${connectionId}`}
               // connectionId is an integer that is incremented at every new connections
               // Assigning a color with a modulo makes sure that a specific user has the same colors on every clients
-              name={info?.name}
+              name={presence.info?.name}
               x={presence.cursor.x}
               y={presence.cursor.y}
             />

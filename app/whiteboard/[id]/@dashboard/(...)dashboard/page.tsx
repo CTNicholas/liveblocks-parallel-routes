@@ -1,3 +1,5 @@
-export default function WhiteboardDashboard () {
-  return <div>Temporary dashboard</div>
+import { Dashboard } from "@/components/Dashboard/Dashboard";
+
+export default function WhiteboardDashboard() {
+  return <Dashboard />;
 }

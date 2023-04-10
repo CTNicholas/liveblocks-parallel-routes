@@ -1,5 +1,11 @@
-export default function Home () {
+import { Dashboard } from "@/components/Dashboard/Dashboard";
+import { Header } from "@/components/Header/Header";
+
+export default function Home() {
   return (
-    <div>Real dashboard</div>
-  )
+    <>
+      <Dashboard />
+      <Header />
+    </>
+  );
 }

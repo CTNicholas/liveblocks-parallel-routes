@@ -1,0 +1,8 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: var(--space-8);
+  background: var(--color-surface-elevated);
+  border-bottom: 1px solid var(--color-border);
+}
