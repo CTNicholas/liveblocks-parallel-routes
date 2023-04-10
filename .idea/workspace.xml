@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64847a41-7765-4852-a251-8e832d1d1869" name="Changes" comment="feat: Basic demo">
-      <change afterPath="$PROJECT_DIR$/components/Dashboard/DocumentIcon.tsx" afterDir="false" />
+    <list default="true" id="64847a41-7765-4852-a251-8e832d1d1869" name="Changes" comment="feat: Tidying">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/whiteboard/[id]/WhiteboardPage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/whiteboard/[id]/WhiteboardPage.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/whiteboard/[id]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/whiteboard/[id]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Cursors/Cursors.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Cursors/Cursors.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Dashboard/Dashboard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Dashboard/Dashboard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Dashboard/DocumentRowSkeleton.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/Dashboard/DocumentRow.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Dashboard/DocumentRowSkeleton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Dashboard/DocumentRow.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Whiteboard/Whiteboard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Whiteboard/Whiteboard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liveblocks.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/liveblocks.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/whiteboard/[id]/@dashboard/default.tsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +88,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681119456328</updated>
-      <workItem from="1681119459245" duration="10523000" />
+      <workItem from="1681119459245" duration="13810000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Basic demo">
       <created>1681128285905</created>
@@ -104,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681128285905</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: Tidying">
+      <created>1681135450188</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681135450188</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +123,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: Basic demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Basic demo" />
+    <MESSAGE value="feat: Tidying" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Tidying" />
   </component>
 </project>
