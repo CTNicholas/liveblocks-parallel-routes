@@ -1,11 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0ca9f28-940f-482f-b133-236c7ffd8848" name="Changes" comment="docs: README info">
-      <change afterPath="$PROJECT_DIR$/app/whiteboard/[id]/@dashPreview/default.tsx" afterDir="false" />
+    <list default="true" id="d0ca9f28-940f-482f-b133-236c7ffd8848" name="Changes" comment="feat: @dashboard -&gt; @dashPreview, added default">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/whiteboard/[id]/@dashboard/(...)dashboard/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/whiteboard/[id]/@dashPreview/(...)dashboard/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/whiteboard/[id]/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/whiteboard/[id]/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dashboard/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/whiteboard/[id]/@dashPreview/(...)dashboard/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/whiteboard/[id]/@dashPreview/(...)dashboard/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/whiteboard/[id]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/whiteboard/[id]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Cursors/Cursor.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Cursors/Cursor.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Cursors/Cursors.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Cursors/Cursors.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Dashboard/Dashboard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Dashboard/Dashboard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Dashboard/DocumentRow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Dashboard/DocumentRow.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Whiteboard/Whiteboard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Whiteboard/Whiteboard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/Check.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/Copy.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/Delete.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/Edit.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/File.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/Folder.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/GitHub.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/Link.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/Menu.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/More.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/Select.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/Share.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/SignIn.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/SignOut.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/User.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/Users.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/icons/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +38,27 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2OF4Vxb2JViestGQBqmbzDNs8rx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "D:\\CN\\Websites\\Liveblocks\\Other projects\\liveblocks-nextjs-13.3-routes\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RunManager">
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -33,7 +76,42 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="feat: @dashboard -&gt; @dashPreview, added default">
+      <created>1681139325559</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681139325559</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d0ca9f28-940f-482f-b133-236c7ffd8848" name="Changes" comment="feat: @dashboard -&gt; @dashPreview, added default" />
+      <created>1681143029351</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681143029351</updated>
+      <workItem from="1681143032319" duration="574000" />
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: @dashboard -&gt; @dashPreview, added default" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: @dashboard -&gt; @dashPreview, added default" />
   </component>
 </project>

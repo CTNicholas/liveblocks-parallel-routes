@@ -6,6 +6,10 @@ import clsx from "clsx";
 import styles from "./WhiteboardPage.module.css";
 import { Header } from "@/components/Header/Header";
 
+export const metadata = {
+  title: "Whiteboard",
+};
+
 export default function WhiteboardPage({
   params: { id },
 }: {

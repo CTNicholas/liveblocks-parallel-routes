@@ -1,11 +1,11 @@
 import styles from "./DocumentRow.module.css";
 import clsx from "clsx";
-import { ComponentProps } from "react";
 import { DocumentIcon } from "@/components/Dashboard/DocumentIcon";
+import Link from "next/link";
 
-export function DocumentRow({ className, ...props }: ComponentProps<"div">) {
+export function DocumentRow({ id }: { id: number | string }) {
   return (
-    <div className={clsx(className, styles.row)} {...props}>
+    <Link href={`/whiteboard/${id}`} className={styles.row}>
       <div className={styles.container}>
         <div className={styles.icon}>
           <DocumentIcon />
@@ -15,6 +15,6 @@ export function DocumentRow({ className, ...props }: ComponentProps<"div">) {
           <span className={styles.documentDate}>Edited just now</span>
         </div>
       </div>
-    </div>
+    </Link>
   );
 }

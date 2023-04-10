@@ -10,7 +10,7 @@ import {
   useRef,
   useState,
 } from "react";
-import { PlusIcon, RedoIcon, UndoIcon } from "../../icons";
+import { PlusIcon, RedoIcon, UndoIcon } from "@/icons";
 import {
   RoomProvider,
   useCanRedo,
@@ -19,11 +19,11 @@ import {
   useMutation,
   useSelf,
   useStorage,
-} from "../../liveblocks.config";
-import { Button } from "../../primitives/Button";
-import { Spinner } from "../../primitives/Spinner";
-import { Tooltip } from "../../primitives/Tooltip";
-import { useBoundingClientRectRef } from "../../utils";
+} from "@/liveblocks.config";
+import { Button } from "@/primitives/Button";
+import { Spinner } from "@/primitives/Spinner";
+import { Tooltip } from "@/primitives/Tooltip";
+import { useBoundingClientRectRef } from "@/utils";
 import { Cursors } from "../Cursors";
 import { WhiteboardNote } from "./WhiteboardNote";
 import styles from "./Whiteboard.module.css";
