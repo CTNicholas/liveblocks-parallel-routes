@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64847a41-7765-4852-a251-8e832d1d1869" name="Changes" comment="feat: Tidying">
+    <list default="true" id="d0ca9f28-940f-482f-b133-236c7ffd8848" name="Changes" comment="docs: README info">
+      <change afterPath="$PROJECT_DIR$/app/whiteboard/[id]/@dashPreview/default.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/whiteboard/[id]/@dashboard/default.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/whiteboard/[id]/@dashboard/(...)dashboard/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/whiteboard/[id]/@dashPreview/(...)dashboard/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/whiteboard/[id]/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/whiteboard/[id]/layout.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,44 +15,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="NamedScopeManager">
-    <scope name=".mdx" pattern="file:* .mdx" />
-  </component>
-  <component name="ProjectId" id="2OEIkFsNPMe0Bi7HcVgkKr2uPph" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/CN/Websites/Liveblocks/Other projects/liveblocks-nextjs-13.3-routes/primitives",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
-    "ts.external.directory.path": "D:\\CN\\Websites\\Liveblocks\\Other projects\\liveblocks-nextjs-13.3-routes\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
-  }
-}]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\CN\Websites\Liveblocks\Other projects\liveblocks-nextjs-13.3-routes\primitives" />
-      <recent name="D:\CN\Websites\Liveblocks\Other projects\liveblocks-nextjs-13.3-routes\components" />
-      <recent name="D:\CN\Websites\Liveblocks\Other projects\liveblocks-nextjs-13.3-routes" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\CN\Websites\Liveblocks\Other projects\liveblocks-nextjs-13.3-routes\app\whiteboard\[id]" />
-    </key>
-  </component>
   <component name="RunManager">
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -63,67 +27,13 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="lint" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="lint" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="npm.dev" />
-        <item itemvalue="npm.lint" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="64847a41-7765-4852-a251-8e832d1d1869" name="Changes" comment="" />
-      <created>1681119456328</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1681119456328</updated>
-      <workItem from="1681119459245" duration="13810000" />
-    </task>
-    <task id="LOCAL-00001" summary="feat: Basic demo">
-      <created>1681128285905</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1681128285905</updated>
-    </task>
-    <task id="LOCAL-00002" summary="feat: Tidying">
-      <created>1681135450188</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1681135450188</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: Basic demo" />
-    <MESSAGE value="feat: Tidying" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Tidying" />
   </component>
 </project>

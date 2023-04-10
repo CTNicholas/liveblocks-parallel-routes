@@ -2,14 +2,14 @@ import { ReactNode } from "react";
 
 export default function Layout({
   children,
-  dashboard,
+  dashPreview,
 }: {
   children: ReactNode;
-  dashboard: ReactNode;
+  dashPreview: ReactNode;
 }) {
   return (
     <>
-      {dashboard}
+      {dashPreview}
       {children}
     </>
   );
