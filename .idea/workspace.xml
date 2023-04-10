@@ -1,34 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0ca9f28-940f-482f-b133-236c7ffd8848" name="Changes" comment="feat: @dashboard -&gt; @dashPreview, added default">
+    <list default="true" id="d0ca9f28-940f-482f-b133-236c7ffd8848" name="Changes" comment="feat: tidying unused">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/whiteboard/[id]/@dashPreview/(...)dashboard/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/whiteboard/[id]/@dashPreview/(...)dashboard/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/whiteboard/[id]/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/whiteboard/[id]/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/whiteboard/[id]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/whiteboard/[id]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Cursors/Cursor.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Cursors/Cursor.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Cursors/Cursors.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Cursors/Cursors.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Dashboard/Dashboard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Dashboard/Dashboard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Dashboard/DocumentRow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Dashboard/DocumentRow.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Whiteboard/Whiteboard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Whiteboard/Whiteboard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/Check.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/Copy.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/Delete.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/Edit.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/File.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/Folder.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/GitHub.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/Link.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/Menu.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/More.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/Select.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/Share.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SignIn.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/SignOut.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/User.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/Users.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/icons/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,18 +23,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "D:\\CN\\Websites\\Liveblocks\\Other projects\\liveblocks-nextjs-13.3-routes\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\CN\\Websites\\Liveblocks\\Other projects\\liveblocks-nextjs-13.3-routes\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -91,9 +67,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681143029351</updated>
-      <workItem from="1681143032319" duration="574000" />
+      <workItem from="1681143032319" duration="678000" />
+      <workItem from="1681143736342" duration="571000" />
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: tidying unused">
+      <created>1681143700177</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681143700178</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +96,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: @dashboard -&gt; @dashPreview, added default" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: @dashboard -&gt; @dashPreview, added default" />
+    <MESSAGE value="feat: tidying unused" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: tidying unused" />
   </component>
 </project>
