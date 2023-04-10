@@ -33,7 +33,6 @@ export function Cursors({ element }: Props) {
 
     // If element, add live cursor listeners
     const updateCursor = (event: PointerEvent) => {
-      console.log("UPDAE");
       if (!element?.current) {
         return;
       }

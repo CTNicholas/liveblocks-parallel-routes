@@ -2,90 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64847a41-7765-4852-a251-8e832d1d1869" name="Changes" comment="feat: Basic demo">
-      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/whiteboard/[id]/WhiteboardPage.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Dashboard/Dashboard.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Dashboard/Dashboard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Dashboard/DocumentRowSkeleton.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Dashboard/DocumentRowSkeleton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Header/Header.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Header/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Logo/Logo.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Logo/Logo.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Logo/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icons/Check.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icons/Copy.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icons/Cross.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icons/Delete.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icons/Edit.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icons/File.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icons/Folder.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icons/GitHub.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icons/Link.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icons/Menu.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icons/More.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icons/Plus.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icons/Redo.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icons/Select.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icons/Share.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icons/SignIn.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icons/SignOut.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icons/Undo.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icons/User.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icons/Users.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icons/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primitives/Avatar/Avatar.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primitives/Avatar/Avatar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primitives/Avatar/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primitives/Button/Button.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primitives/Button/Button.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primitives/Button/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primitives/Container/Container.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primitives/Container/Container.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primitives/Container/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primitives/Input/Input.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primitives/Input/Input.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primitives/Input/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primitives/Skeleton/Skeleton.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primitives/Skeleton/Skeleton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primitives/Skeleton/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primitives/Spinner/Spinner.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primitives/Spinner/Spinner.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primitives/Spinner/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primitives/Tooltip/Tooltip.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primitives/Tooltip/Tooltip.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primitives/Tooltip/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/capitalize.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/getContrastingColor.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/getInitials.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/normalizeTrailingSlash.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/randomUser.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/useBoundingClientRectRef.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Dashboard/DocumentIcon.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/auth/route.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/hello/route.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dashboard/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/dashboard/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/default.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/default.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/whiteboard/[id]/@dashboard/(...)dashboard/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/whiteboard/[id]/@dashboard/(...)dashboard/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/whiteboard/[id]/@dashboard/default.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/whiteboard/[id]/@dashboard/default.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/whiteboard/[id]/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/whiteboard/[id]/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/whiteboard/[id]/WhiteboardPage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/whiteboard/[id]/WhiteboardPage.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/whiteboard/[id]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/whiteboard/[id]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/whiteboard/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/whiteboard/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Cursors/Cursors.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Cursors/Cursors.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Dashboard/Dashboard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Dashboard/Dashboard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Dashboard/DocumentRowSkeleton.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/Dashboard/DocumentRow.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Dashboard/DocumentRowSkeleton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Dashboard/DocumentRow.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Whiteboard/Whiteboard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Whiteboard/Whiteboard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Whiteboard/WhiteboardNote.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Whiteboard/WhiteboardNote.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/liveblocks.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/liveblocks.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,8 +95,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681119456328</updated>
-      <workItem from="1681119459245" duration="8568000" />
+      <workItem from="1681119459245" duration="10523000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: Basic demo">
+      <created>1681128285905</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681128285905</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

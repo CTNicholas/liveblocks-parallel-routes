@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import { LiveObject, shallow } from "@liveblocks/client";
+import { LiveMap, LiveObject, shallow } from "@liveblocks/client";
 import { ClientSideSuspense } from "@liveblocks/react";
 import { nanoid } from "nanoid";
 import {
@@ -12,6 +12,7 @@ import {
 } from "react";
 import { PlusIcon, RedoIcon, UndoIcon } from "../../icons";
 import {
+  RoomProvider,
   useCanRedo,
   useCanUndo,
   useHistory,
@@ -26,6 +27,8 @@ import { useBoundingClientRectRef } from "../../utils";
 import { Cursors } from "../Cursors";
 import { WhiteboardNote } from "./WhiteboardNote";
 import styles from "./Whiteboard.module.css";
+import { randomUser } from "@/utils/randomUser";
+import { TooltipProvider } from "@radix-ui/react-tooltip";
 
 /**
  * This file shows how to create a multiplayer canvas with draggable notes.
@@ -33,7 +36,7 @@ import styles from "./Whiteboard.module.css";
  * There's also a toolbar allowing you to undo/redo your actions and add more notes.
  */
 
-export function Whiteboard() {
+export function Whiteboard({ roomId }: { roomId: string }) {
   const loading = (
     <div className={styles.loading}>
       <Spinner size={24} />
@@ -41,9 +44,17 @@ export function Whiteboard() {
   );
 
   return (
-    <ClientSideSuspense fallback={loading}>
-      {() => <Canvas />}
-    </ClientSideSuspense>
+    <TooltipProvider>
+      <RoomProvider
+        id={roomId}
+        initialPresence={{ cursor: null, info: randomUser() }}
+        initialStorage={{ notes: new LiveMap() }}
+      >
+        <ClientSideSuspense fallback={loading}>
+          {() => <Canvas />}
+        </ClientSideSuspense>
+      </RoomProvider>
+    </TooltipProvider>
   );
 }
 
