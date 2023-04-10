@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="NamedScopeManager">
+    <scope name=".mdx" pattern="file:* .mdx" />
+  </component>
+</project>
