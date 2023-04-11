@@ -1,4 +1,4 @@
-https://user-images.githubusercontent.com/33033422/230921202-69e888ca-e47f-40b4-8aa0-cedee2a4d489.mp4
+https://user-images.githubusercontent.com/33033422/231229414-c1c627c6-babd-4b99-9393-ecb20ec06afe.mp4
 
 ## Next.js 13.3 parallel & intercepted routes + Liveblocks demo
 
